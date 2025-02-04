@@ -36,10 +36,10 @@ We welcome contributions! Feel free to submit issues or pull requests.
 Dev Jaem - main developer.
 
 For questions or suggestions, contact us at:
-   -[ⓕ Dev.Jaem](https://web.facebook.com/profile.php?id=61568548185514)
-   -[𝕏 dev_jaem_com](https://x.com/dev_jaem_com)
-   -[</> Github](https://github.com/equinoxYttrium31)
-   -[🅾 Instagram](https://www.instagram.com/flameno_jm/)
+   - [ⓕ Dev.Jaem](https://web.facebook.com/profile.php?id=61568548185514)
+   - [𝕏 dev_jaem_com](https://x.com/dev_jaem_com)
+   - [</> Github](https://github.com/equinoxYttrium31)
+   - [🅾 Instagram](https://www.instagram.com/flameno_jm/)
 
 
 ©All rights reserved. February 2025
