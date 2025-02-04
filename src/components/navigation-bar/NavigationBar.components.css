@@ -1,0 +1,56 @@
+.nb-main-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    height: fit-content;
+}
+
+.nb-logo-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nb-logo-image{
+    aspect-ratio: 1;
+    height: 50px;
+}
+
+.nb-logo-text{
+    font-family: Zen Dots;
+    letter-spacing: 5px;
+    color: whitesmoke;
+}
+
+.nb-links-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nb-links-group{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+}
+
+.item-link{
+    display: inline-block;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .1s ease-in-out;
+}
+
+.item-link:hover{
+    color: var(--light-button);
+    transform: translateX(-.1rem) translateY(-.1rem);
+}
+
+.nb-buttons-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
