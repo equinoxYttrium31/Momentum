@@ -1,8 +1,10 @@
-import HeroSection from "../../components/HeroSection/Herosection.components";
-import KeyFeatures from "../../components/KeyFeatures/KeyFeatures.components";
+import './homepage.page.css';
+
+import HeroSection from '../../components/Homepage Components/HeroSection/Herosection.components';
+import KeyFeatures from '../../components/Homepage Components/KeyFeatures/KeyFeatures.components';
 
 function Homepage() {
-  return (
+	return (
 		<div className='hp-main-container'>
 			<section id='hero-section'>
 				<HeroSection />
@@ -14,4 +16,4 @@ function Homepage() {
 	);
 }
 
-export default Homepage
+export default Homepage;

@@ -1,0 +1,35 @@
+.ts-card {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ts-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.ts-feedback {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.ts-name {
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.ts-role {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}

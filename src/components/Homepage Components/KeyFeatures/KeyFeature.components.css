@@ -1,5 +1,5 @@
 .kf-main-container{
-    height: 100vh;
+    height: fit-content;
     display: grid;
     align-items: center;
     grid-template-rows: .5fr .3fr;

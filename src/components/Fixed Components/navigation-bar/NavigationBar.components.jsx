@@ -1,10 +1,10 @@
-import "./NavigationBar.components.css"
-import Logo from "../../assets/images/momentum-logo.png"
+import './NavigationBar.components.css';
+import Logo from '../../../assets/images/momentum-logo.png';
 
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 function NavigationBar() {
-  return (
+	return (
 		<>
 			<div className='nb-main-container'>
 				<div className='nb-logo-container'>
@@ -13,9 +13,7 @@ function NavigationBar() {
 						alt='momentum logo'
 						className='nb-logo-image'
 					/>
-					<h2 className='nb-logo-text'>
-						Momentum
-					</h2>
+					<h2 className='nb-logo-text'>Momentum</h2>
 				</div>
 				<div className='nb-links-container'>
 					<ul className='nb-links-group'>
@@ -28,21 +26,21 @@ function NavigationBar() {
 						</li>
 						<li className='nb-links-item'>
 							<Link
-								to='/'
+								to='/about-us'
 								className='item-link'>
 								About
 							</Link>
 						</li>
 						<li className='nb-links-item'>
 							<Link
-								to='/'
+								to='/contact-us'
 								className='item-link'>
 								Contact Us
 							</Link>
 						</li>
 						<li className='nb-links-item'>
 							<Link
-								to='/'
+								to='/help'
 								className='item-link'>
 								Help
 							</Link>
@@ -50,16 +48,12 @@ function NavigationBar() {
 					</ul>
 				</div>
 				<div className='nb-buttons-container'>
-					<button className='nb-btn btn-light'>
-						Sign Up
-					</button>
-					<button className='nb-btn btn-light'>
-						Login
-					</button>
+					<button className='nb-btn btn-light'>Sign Up</button>
+					<button className='nb-btn btn-light'>Login</button>
 				</div>
 			</div>
 		</>
 	);
 }
 
-export default NavigationBar
+export default NavigationBar;

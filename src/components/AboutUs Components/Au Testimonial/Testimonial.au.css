@@ -1,0 +1,60 @@
+.ts-main-container {
+  text-align: center;
+  padding: 2rem;
+  max-width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.ts-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1rem;
+  font-family: zen dots;
+  margin-bottom: 1rem;
+}
+
+.ts-carousel {
+  padding: 1rem;
+}
+
+/* Custom Arrows */
+.ts-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 100%;
+  z-index: 10;
+}
+
+.ts-arrow:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.ts-prev {
+  left: -40px;
+}
+
+.ts-next {
+  right: -40px;
+}
+
+/* Dots */
+.slick-dots {
+  bottom: -25px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--primary);
+}

@@ -1,0 +1,23 @@
+.au-header-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.au-header-text{
+    color: whitesmoke;
+    font-family: Zen Dots;
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    margin-bottom: 0;
+}
+
+.au-description-text{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    width: 70%;
+}
