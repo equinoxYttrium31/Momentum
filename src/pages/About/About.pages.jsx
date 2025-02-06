@@ -1,6 +1,7 @@
 import './About.pages.css';
 
 //components import
+import CTASection from '../../components/AboutUs Components/Au CTA/CTASection.au';
 import Testimonial from '../../components/AboutUs Components/Au Testimonial/Testimonial.au';
 import Story from '../../components/AboutUs Components/Au Story/Story.au';
 import Mission from '../../components/AboutUs Components/Au Mission/Mission.au';
@@ -23,6 +24,10 @@ function About() {
 
 			<section className='au-testimonial-section'>
 				<Testimonial />
+			</section>
+
+			<section className='au-cta-section'>
+				<CTASection />
 			</section>
 		</div>
 	);
