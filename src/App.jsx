@@ -8,6 +8,7 @@ import Footer from './components/Fixed Components/Footer/Footer.components';
 
 import Homepage from './pages/Homepage/homepage.page';
 import About from './pages/About/About.pages';
+import ContactUs from './pages/Contact Us/ContactUs.pages';
 
 function App() {
 	return (
@@ -24,6 +25,10 @@ function App() {
 				<Route
 					path='/about-us'
 					element={<About />}
+				/>
+				<Route
+					path='/contact-us'
+					element={<ContactUs />}
 				/>
 			</Routes>
 

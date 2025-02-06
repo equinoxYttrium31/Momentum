@@ -1,0 +1,53 @@
+.cu-main-container{
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cu-header-container {
+    position: relative;
+    height: 70%;
+    grid-column: span 2;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeDown 1s ease-in-out;
+}
+
+.cu-header-container::before {
+    content: "";
+    position: absolute;
+    top: -5rem;
+    left: 0;
+    width: 100%;
+    height: 193%;
+    background: url("../../assets/images/contact-us-image.jpg") no-repeat center 20%;
+    background-size: cover;
+    opacity: 0.3; /* Adjust opacity as needed */
+    z-index: -1; 
+}
+
+.cu-header-text{
+    font-family: zen dots;
+    font-size: 5rem;
+    letter-spacing: 1rem;
+    
+}
+
+.cu-paragraph-container{
+    
+}
+
+@keyframes fadeDown {
+    0%{
+        opacity: 0;
+        transform: translateY(-15rem);
+    }
+
+    100%{
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+}
