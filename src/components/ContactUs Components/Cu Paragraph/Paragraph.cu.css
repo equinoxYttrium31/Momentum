@@ -1,0 +1,38 @@
+.pg-main-container{
+    height: 45vh;
+}
+
+.pg-sub-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    animation: fadeUp 1s ease-in-out;
+}
+
+.pg-header-text{
+    font-size: 2rem;
+    font-family: zen dots;
+    letter-spacing: 5px;
+    text-align: end;
+}
+
+.pg-header-subtext{
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+@keyframes fadeUp {
+    0%{
+        opacity: 0;
+        transform: translateY(25rem);
+    }
+
+    100%{
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+}
+

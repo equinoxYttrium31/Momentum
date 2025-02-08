@@ -1,6 +1,7 @@
 import './ContactUs.pages.css';
 
-import Form from '../../components/ContactUs Components/Form/Form.cu';
+import Form from '../../components/ContactUs Components/Cu Form/Form.cu';
+import Paragraph from '../../components/ContactUs Components/Cu Paragraph/Paragraph.cu';
 
 function ContactUs() {
 	return (
@@ -8,7 +9,9 @@ function ContactUs() {
 			<div className='cu-header-container'>
 				<h2 className='cu-header-text'>Contact Us</h2>
 			</div>
-			<div className='cu-paragraph-container'></div>
+			<div className='cu-paragraph-container'>
+				<Paragraph />
+			</div>
 			<div className='cu-form-container'>
 				<Form />
 			</div>
